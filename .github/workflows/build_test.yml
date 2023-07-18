@@ -35,7 +35,7 @@ jobs:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           region: "ap-southeast-1"
-          application_name: django-app-aws
+          application_name: django-app
           environment_name: Django-app-env
           version_label: ${{ github.run_number }}
           deployment_package: deploy.zip
